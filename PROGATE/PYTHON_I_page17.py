@@ -11,11 +11,11 @@ print('支払い金額は' + str(total_price) + '円です')
 
 # moneyとtotal_priceの比較結果によって条件を分岐してください
 if money > total_price:
-    print("りんごを" + str(count) + "個買いました")
-    print("残金は" + str(money - total_price) + "円です")
+    print ("りんごを" + str(count) + "個買いました")
+    print ("残金は" + str(money - total_price) + "円です")
 elif money == total_price:
-    print("りんごを" + str(count) + "個買いました")
-    print("財布が空になりました")
+    print ("りんごを" + str(count) + "個買いました")
+    print ("財布が空になりました")
 else:
-    print("お金が足りません")
-    print("りんごを買えませんでした")
+    print ("お金が足りません")
+    print ("りんごを買えませんでした")
