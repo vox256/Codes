@@ -3,5 +3,3 @@ class MenuItem:
 
 # MenuItemクラスのインスタンスを生成してください
 menu_item1 = MenuItem()
-
-
