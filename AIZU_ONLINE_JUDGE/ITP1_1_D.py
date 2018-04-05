@@ -1,0 +1,5 @@
+S = int(input())
+s = int(S % 60)
+m = int((S % 3600 - s) / 60)
+h = int((S - (60 * m + s)) / 3600)
+print (str(h) + ":" + str(m) + ":" + str(s))
